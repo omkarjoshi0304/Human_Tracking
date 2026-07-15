@@ -6,7 +6,33 @@ The system achieves **sub-second E2E latency**, **~95% presence accuracy**, and 
 > Live stack: ESP32 → MQTT → Telegraf → InfluxDB → Grafana
 
 Python broker-side monitor & data generator
+# Real-Time Multi-Room Human Tracking (mmWave + MQTT + InfluxDB + Grafana)
 
+[![Demo Video](https://img.shields.io/badge/Demo-Watch%20On%20Google%20Drive-blue?style=for-the-badge&logo=googledrive)](https://drive.google.com/file/d/1VChAmIJt7Kortah_BHu9H5lQjqUYbc56/view?usp=sharing)
+
+**Privacy-preserving human presence & activity monitoring** across multiple rooms using **C1001 mmWave sensors** (ESP32), **MQTT**, **Telegraf**, **InfluxDB**, and **Grafana**.  
+The system achieves **sub-second E2E latency**, **~95% presence accuracy**, and **real-time dashboards** with anomaly alerts.
+
+> 🎥 **[Watch the project demo on Google Drive](https://drive.google.com/file/d/1VChAmIJt7Kortah_BHu9H5lQjqUYbc56/view?usp=sharing)**
+
+> Live stack: ESP32 → MQTT → Telegraf → InfluxDB → Grafana
+
+Python broker-side monitor & data generator
+
+
+---
+
+## ✨ Features
+
+- Multi-room presence & movement classification (`walking/standing/sitting/none`)
+- Real-time dashboards: status tiles, timelines, room usage bars, heatmaps
+- Anomaly alerts (e.g., ALL ROOMS EMPTY, unusual/high activity)
+- Validated data model (`measurement=human_tracking`) with clean tags & fields
+- Lightweight, reproducible stack (local or edge device)
+
+---
+
+## 📁 Repository Structure
 
 ---
 
